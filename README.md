@@ -1,3 +1,4 @@
 # Process-Scheduling
 
 A New Combination Approach to CPU Scheduling based on Priority and Round-Robin Algorithms for Assigning a Priority to a Process and Eliminating Starvation 
+The proposed algorithm adds two more columns to the original columns in the round-robin as follows: Priority column: The CPU gives some processes higher priority than others. The number of times to repeat this is listed in the second column. If the procedure is prioritized three times then, in the central processing unit, the original priority is updated and the lowest priority is assigned. Following this, the processes will be carried out in accordance with the arrival time of the central processing unit (CPU). Finally, when the CPU receives the lowest priority process, the priority will be activated again. Then, it will be implemented three times before being assigned the lowest priority in the central processing unit (CPU).
